@@ -856,7 +856,7 @@ const P = {
 
 /* VEHICLE_OVERRIDE_START */
 // Auto-generated — do NOT edit manually. Run update_dashboard.py to refresh.
-// Last updated: 2026-05-12 14:57 UTC  |  Source: Vehicle_Planing_Trial.xlsx
+// Last updated: 2026-05-12 12:14 UTC  |  Source: Vehicle_Planing_Trial.xlsx
 // Verification: Verification: 507/508 checks passed, 1 issue(s) found
 const VEHICLE_OVERRIDE = {
   "mazda": {
@@ -1647,7 +1647,7 @@ const VEHICLE_OVERRIDE = {
     "cn": []
   }
 };
-const DASHBOARD_LAST_UPDATED = "2026-05-12 14:57 UTC";
+const DASHBOARD_LAST_UPDATED = "2026-05-12 12:14 UTC";
 const DASHBOARD_EXCEL_SOURCE = "Vehicle_Planing_Trial.xlsx";
 const MARKET_SHARE_DATA = {
   "eu": {
@@ -1701,12 +1701,7 @@ window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;
 
 // ─── Vehicle-override helpers (applied after groups are defined) ──
 function _nb(s){
-  // normalize brand name to a-z0-9 key for lookup
-  return s.toLowerCase().replace(/[\u00C0-\u024F]/g,function(c){
-    return 'aaaaaaaeceeeeiiiinoooooouuuuyyaaaaabcddeeeeeeghiijkllllmnnnoooooorrssshttuuuuwyyzzz'[
-      'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŊŋŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŴŵŶŷŸŹźŻżŽž'.indexOf(c)] || c
-    );
-  }).replace(/[^a-z0-9]/g,'');
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 }
 function _applyOv(groups, market) {
   if (!window.VEHICLE_OVERRIDE) return groups;
