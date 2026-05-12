@@ -856,7 +856,7 @@ const P = {
 
 /* VEHICLE_OVERRIDE_START */
 // Auto-generated — do NOT edit manually. Run update_dashboard.py to refresh.
-// Last updated: 2026-05-12 14:48 UTC  |  Source: Vehicle_Planing_Trial.xlsx
+// Last updated: 2026-05-12 12:14 UTC  |  Source: Vehicle_Planing_Trial.xlsx
 // Verification: Verification: 507/508 checks passed, 1 issue(s) found
 const VEHICLE_OVERRIDE = {
   "mazda": {
@@ -1647,7 +1647,7 @@ const VEHICLE_OVERRIDE = {
     "cn": []
   }
 };
-const DASHBOARD_LAST_UPDATED = "2026-05-12 14:48 UTC";
+const DASHBOARD_LAST_UPDATED = "2026-05-12 12:14 UTC";
 const DASHBOARD_EXCEL_SOURCE = "Vehicle_Planing_Trial.xlsx";
 const MARKET_SHARE_DATA = {
   "eu": {
@@ -1697,6 +1697,7 @@ const VERIFICATION_ISSUES = [
   }
 ];
 /* VEHICLE_OVERRIDE_END */
+window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;
 
 // ─── Vehicle-override helpers (applied after groups are defined) ──
 function _nb(s){
@@ -2880,14 +2881,13 @@ const MARKET = {
   eu: { groups: groups_eu, upcoming: upcoming_eu, prefix: 'eu' },
   us: { groups: groups_us, upcoming: upcoming_us, prefix: 'us' },
   cn: { groups: groups_cn, upcoming: upcoming_cn, prefix: 'cn' },
+};
 // Apply vehicle availability overrides from Excel
 if (window.VEHICLE_OVERRIDE) {
   MARKET.eu.groups = _applyOv(groups_eu, 'eu');
   MARKET.us.groups = _applyOv(groups_us, 'us');
   MARKET.cn.groups = _applyOv(groups_cn, 'cn');
 }
-
-};
 
 // ═══════════════════════════════════════════════════════════════════
 // UTILITY FUNCTIONS
