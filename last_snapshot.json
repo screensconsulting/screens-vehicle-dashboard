@@ -1,0 +1,833 @@
+{
+  "timestamp": "2026-05-12 12:14 UTC",
+  "excel_md5": "49752b5c4f5ae5e22187e016f9ca2ea0",
+  "brands": {
+    "mazda": {
+      "eu": [
+        "MX 30 (MY2020)"
+      ],
+      "us": [
+        "CX-5 (MY2026)"
+      ],
+      "cn": []
+    },
+    "roxjishi": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "ADAMAS (MY2026)"
+      ]
+    },
+    "toyota": {
+      "eu": [
+        "Camry (MY2019)"
+      ],
+      "us": [
+        "RAV4 (MY2026)",
+        "Tundra (MY2022)"
+      ],
+      "cn": []
+    },
+    "audi": {
+      "eu": [
+        "Q6 e-tron (MY2024)",
+        "RS3 (MY2022)",
+        "e-tron (MY2019)",
+        "Q8 (MY2018)"
+      ],
+      "us": [],
+      "cn": [
+        "E5 (MY2025)"
+      ]
+    },
+    "lincoln": {
+      "eu": [
+        "Navigator (MY2019)"
+      ],
+      "us": [
+        "Navigator (MY2026)",
+        "Nautilus (MY2024)"
+      ],
+      "cn": []
+    },
+    "immotors": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "LS9 (MY2026)"
+      ]
+    },
+    "maextro": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "S800 (MY2026)"
+      ]
+    },
+    "wey": {
+      "eu": [
+        "VV7 (MY2019)"
+      ],
+      "us": [],
+      "cn": [
+        "Lanshan (MY2025)",
+        "Mocca (MY2022)"
+      ]
+    },
+    "buick": {
+      "eu": [],
+      "us": [
+        "Envista (MY2025)"
+      ],
+      "cn": [
+        "Electra L7 (MY2025)"
+      ]
+    },
+    "lucid": {
+      "eu": [],
+      "us": [
+        "Gravity (MY2026)",
+        "Air (MY2021)"
+      ],
+      "cn": []
+    },
+    "ford": {
+      "eu": [
+        "Explorer (MY2025)",
+        "Mustang Mach E (MY2021)",
+        "Explorer (MY2019)"
+      ],
+      "us": [
+        "Maverick (MY2025)",
+        "Maverick Lariat (MY2025)",
+        "Explorer ST (MY2024)",
+        "Mustang (MY2024)",
+        "F150 Lightning (MY2022)",
+        "Bronco (MY2021)"
+      ],
+      "cn": []
+    },
+    "mercedesbenz": {
+      "eu": [
+        "CLA EV (MY2025)",
+        "GLE (MY2024)",
+        "E-Class (MY2024)",
+        "EQS (MY2021)",
+        "S-Class (MY2020)",
+        "EQC (MY2019)",
+        "A Class (MY2018)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "jeep": {
+      "eu": [
+        "Avenger (MY2024)"
+      ],
+      "us": [
+        "Wagoneer S EV (MY2025)",
+        "Grand Cherokee (MY2021)"
+      ],
+      "cn": []
+    },
+    "nissan": {
+      "eu": [
+        "Ariya (MY2022)",
+        "Leaf (MY2019)"
+      ],
+      "us": [
+        "Rogue (MY2024)",
+        "Armada (MY2021)"
+      ],
+      "cn": [
+        "N7 (MY2025)"
+      ]
+    },
+    "chevrolet": {
+      "eu": [],
+      "us": [
+        "Corvette E-Ray (MY2025)",
+        "Blazer EV (MY2024)",
+        "Tahoe (MY2022)",
+        "Bolt EV (MY2022)"
+      ],
+      "cn": []
+    },
+    "smart": {
+      "eu": [
+        "#5 (MY2025)",
+        "#1 (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "cadillac": {
+      "eu": [],
+      "us": [
+        "Escalade (MY2025)",
+        "Lyriq (MY2022)",
+        "CT4-V (MY2022)",
+        "Escalade (MY2021)"
+      ],
+      "cn": []
+    },
+    "byd": {
+      "eu": [
+        "Sealion 7 (MY2025)"
+      ],
+      "us": [],
+      "cn": [
+        "Xia (MY2025)",
+        "Song L (MY2023)",
+        "Yangwang U8 (MY2023)",
+        "Tang EV (MY2020)"
+      ]
+    },
+    "xiaomi": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "YU7 (MY2025)",
+        "SU7 (MY2024)"
+      ]
+    },
+    "lynkco": {
+      "eu": [
+        "1 (MY2021)"
+      ],
+      "us": [],
+      "cn": [
+        "900 (MY2025)",
+        "8 (MY2023)"
+      ]
+    },
+    "astionmartin": {
+      "eu": [],
+      "us": [
+        "DBX707 (MY2025)"
+      ],
+      "cn": []
+    },
+    "nio": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Firefly (MY2025)",
+        "ET9 (MY2025)",
+        "ES8 (MY2021)"
+      ]
+    },
+    "skoda": {
+      "eu": [
+        "Enyaq (MY2025)",
+        "Enyaq iV (MY2021)",
+        "Superb (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "renault": {
+      "eu": [
+        "5 E-Tech (MY2025)",
+        "Mégane E-tech (MY2022)",
+        "Clio (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "cupra": {
+      "eu": [
+        "Terramar (MY2025)",
+        "Formentor (MY2021)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "rivian": {
+      "eu": [],
+      "us": [
+        "R1S (MY2024)",
+        "RT1 (MY2021)"
+      ],
+      "cn": []
+    },
+    "porsche": {
+      "eu": [
+        "Macan (MY2025)",
+        "Taycan (MY2020)",
+        "Panamera (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "tesla": {
+      "eu": [
+        "Model 3 (MY2024)",
+        "Model X (MY2021)",
+        "Model Y (MY2020)",
+        "Model 3 (MY2018)"
+      ],
+      "us": [
+        "Model Y (MY2026)",
+        "Cybertruck (MY2024)",
+        "Model S Plaid (MY2021)"
+      ],
+      "cn": []
+    },
+    "formulaleopard": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Bao 8 (MY2024)"
+      ]
+    },
+    "dodge": {
+      "eu": [
+        "RAM 1500 (MY2019)"
+      ],
+      "us": [
+        "Charger Daytona (MY2024)"
+      ],
+      "cn": []
+    },
+    "polestar": {
+      "eu": [
+        "4 (MY2025)",
+        "2 (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "stelato": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "S9 (MY2024)"
+      ]
+    },
+    "zeekr": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Mix (MY2024)",
+        "009 (MY2022)",
+        "1 (MY2021)"
+      ]
+    },
+    "infiniti": {
+      "eu": [],
+      "us": [
+        "QX80 (MY2024)",
+        "QX60 (MY2022)"
+      ],
+      "cn": []
+    },
+    "xiaopeng": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Mona 3 (MY2024)",
+        "X9 (MY2023)",
+        "G9 (MY2022)",
+        "P7 (MY2020)"
+      ]
+    },
+    "acura": {
+      "eu": [],
+      "us": [
+        "ZDX (MY2024)",
+        "DMX (MY2021)"
+      ],
+      "cn": []
+    },
+    "truckdaf": {
+      "eu": [
+        "XG 450 (MY2024)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "aion": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "V Gen 2 (MY2024)"
+      ]
+    },
+    "galaxy": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "E8 (MY2023)",
+        "L7 (MY2023)"
+      ]
+    },
+    "mini": {
+      "eu": [
+        "Cooper SE (MY2024)",
+        "Cooper SE (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "truckman": {
+      "eu": [
+        "TGX (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "neta": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "L (MY2024)"
+      ]
+    },
+    "honda": {
+      "eu": [
+        "e:Ny1 (MY2024)",
+        "HR V (MY2022)",
+        "e (MY2020)"
+      ],
+      "us": [
+        "Prologue (MY2024)",
+        "Pilot (MY2023)"
+      ],
+      "cn": []
+    },
+    "hyper": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "GT (MY2023)"
+      ]
+    },
+    "kia": {
+      "eu": [
+        "EV6 (MY2022)"
+      ],
+      "us": [
+        "EV9 (MY2024)",
+        "Carnival (MY2022)"
+      ],
+      "cn": []
+    },
+    "mg": {
+      "eu": [
+        "4 Electric (MY2024)"
+      ],
+      "us": [],
+      "cn": [
+        "Marvel R (MY2021)"
+      ]
+    },
+    "hyundai": {
+      "eu": [
+        "Kona Electric (MY2024)",
+        "Ioniq 5 (MY2021)",
+        "Ioniq (MY2020)"
+      ],
+      "us": [
+        "Ioniq 6 (MY2023)"
+      ],
+      "cn": []
+    },
+    "truckvolvo": {
+      "eu": [
+        "FH500 (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "volvo": {
+      "eu": [
+        "EX30 (MY2024)",
+        "XC40 (MY2021)",
+        "S60 (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "avatr": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "12 (MY2023)",
+        "11 (MY2022)"
+      ]
+    },
+    "vinfast": {
+      "eu": [],
+      "us": [
+        "VF8 (MY2023)"
+      ],
+      "cn": []
+    },
+    "roewe": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "D7 (MY2023)",
+        "Marvel R (MY2021)"
+      ]
+    },
+    "volkswagen": {
+      "eu": [
+        "ID.7 (MY2023)",
+        "Amarok (MY2024)",
+        "ID.3 (MY2020)",
+        "Golf 8 (MY2020)",
+        "Touareg (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "truckmercedes": {
+      "eu": [
+        "Actros (MY2021)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "jiyue": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "1 (MY2023)"
+      ]
+    },
+    "baojun": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Yunduo (MY2023)"
+      ]
+    },
+    "hiphi": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Y (MY2023)",
+        "X (MY2021)"
+      ]
+    },
+    "lotus": {
+      "eu": [
+        "Eletre (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "danza": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "N7 (MY2023)"
+      ]
+    },
+    "deepal": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "S7 (MY2023)"
+      ]
+    },
+    "hozon": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Neta GT (MY2023)"
+      ]
+    },
+    "fisker": {
+      "eu": [
+        "Ocean (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "ora": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Lightning cat (MY2023)"
+      ]
+    },
+    "suzuki": {
+      "eu": [
+        "Swace (MY2023)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "lexus": {
+      "eu": [
+        "ES (MY2019)"
+      ],
+      "us": [
+        "RZ 450e (MY2023)"
+      ],
+      "cn": []
+    },
+    "citroen": {
+      "eu": [
+        "C5X (MY2023)",
+        "C5 (MY2021)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "arcfox": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Alpha S (MY2022)"
+      ]
+    },
+    "rising": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "R7 (MY2023)"
+      ]
+    },
+    "leapmotor": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "C01 (MY2023)"
+      ]
+    },
+    "alfaromeo": {
+      "eu": [
+        "Tonale (MY2023)",
+        "Stelvio (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "im": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "LS7 (MY2023)"
+      ]
+    },
+    "peugeot": {
+      "eu": [
+        "408 (MY2023)",
+        "E-208 (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "geely": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "BoyueL (MY2022)",
+        "Preface (MY2021)"
+      ]
+    },
+    "subaru": {
+      "eu": [],
+      "us": [
+        "Solterra EV (MY2021)"
+      ],
+      "cn": []
+    },
+    "bmw": {
+      "eu": [
+        "i7 (MY2022)",
+        "iX (MY2021)",
+        "X7 (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "lixiang": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "L9 (MY2022)",
+        "One (MY2019)"
+      ]
+    },
+    "aito": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "M7 (MY2022)"
+      ]
+    },
+    "gmc": {
+      "eu": [],
+      "us": [
+        "Hummer EV (MY2022)"
+      ],
+      "cn": []
+    },
+    "genesis": {
+      "eu": [],
+      "us": [
+        "GV60 (MY2022)",
+        "GV70 (MY2021)"
+      ],
+      "cn": []
+    },
+    "maserati": {
+      "eu": [
+        "Grecale (MY2022)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "seres": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "SF5 (MY2022)"
+      ]
+    },
+    "voyah": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "Free (MY2021)"
+      ]
+    },
+    "rangerover": {
+      "eu": [
+        "5 (MY2022)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "opel": {
+      "eu": [
+        "Astra (MY2022)",
+        "Corsa e (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "lamborghini": {
+      "eu": [
+        "Urus (MY2021)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "weltmeister": {
+      "eu": [],
+      "us": [],
+      "cn": [
+        "W6 (MY2021)"
+      ]
+    },
+    "aiways": {
+      "eu": [
+        "U5 (MY2021)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "fiat": {
+      "eu": [
+        "500e (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "landrover": {
+      "eu": [
+        "Defender (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "mclaren": {
+      "eu": [
+        "600lt Spider (MY2020)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "seat": {
+      "eu": [
+        "Tarraco (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "byton": {
+      "eu": [
+        "M-Byte (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "kiamotors": {
+      "eu": [
+        "e-niro (MY2019)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "dsautomobiles": {
+      "eu": [
+        "DS 7 Crossback (MY2018)"
+      ],
+      "us": [],
+      "cn": []
+    },
+    "jaguar": {
+      "eu": [
+        "I-Pace (MY2018)"
+      ],
+      "us": [],
+      "cn": []
+    }
+  },
+  "market_share": {
+    "eu": {
+      "volkswagen": 26.9,
+      "stellantis": 14.3,
+      "renault": 10.2,
+      "hyundai": 7.9,
+      "bmw": 7.3,
+      "toyota": 7.0,
+      "mercedes": 5.1,
+      "ford": 3.2,
+      "volvo": 2.5,
+      "saic": 2.3,
+      "tesla": 1.8,
+      "nissan": 2.2,
+      "suzukimazdahonda": 2.9
+    },
+    "us": {
+      "gm": 16.3,
+      "ford": 13.1,
+      "stellantis": 9.8,
+      "toyota": 15.2,
+      "honda": 9.2,
+      "hyundai": 11.0,
+      "nissan": 7.1,
+      "bmw": 2.8,
+      "mercedes": 2.2,
+      "volkswagen": 3.4,
+      "tesla": 3.5
+    },
+    "cn": {
+      "byd": 32.0,
+      "geely": 10.5,
+      "saic": 9.8,
+      "gac": 7.2,
+      "changan": 6.8,
+      "nio": 2.1,
+      "xpeng": 2.3,
+      "liauto": 3.5
+    }
+  }
+}
