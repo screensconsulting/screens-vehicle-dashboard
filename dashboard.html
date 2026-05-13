@@ -607,7 +607,7 @@ footer{padding:.55rem 1.25rem;border-top:1px solid var(--color-divider);text-ali
   <div class="summary-stat">📦 <strong id="sum-eu-models">—</strong> EU models · <strong id="sum-us-models">—</strong> US · <strong id="sum-cn-models">—</strong> CN <span style="margin-left:12px;font-size:.62rem;color:var(--color-text-faint);white-space:nowrap">🔄 Updated: <span id="dash-last-updated" style="font-weight:700"></span></span></div>
   <div class="summary-divider"></div>
   <div class="summary-stat" style="margin-left:auto;color:var(--color-text-muted);font-size:.7rem;">
-    🕐 Stand: <strong>April 2026</strong> &nbsp;|&nbsp; Quelle: Screens Studio Vehicle List
+    🕐 As of: <strong>April 2026</strong> &nbsp;|&nbsp; Source: Screens Studio Vehicle List
   </div>
 </div>
 
@@ -703,7 +703,7 @@ const P = {
   MIB4: {os:"MIB4 / eSAP (VW Group)",    chip:"Qualcomm SA8295",    cc:"chip-mib4",    note:"Android-based, OTA-capable"},
   VW_AAOS: {os:"Android Auto / MIB4",        chip:"Qualcomm SA8155",    cc:"chip-mib4",    note:"MIB3/4 platform"},
   CUPRA_MIB4: {os:"MIB4 (CUPRA OS)",           chip:"Qualcomm SA8295",    cc:"chip-mib4",    note:"Sport-UI auf MIB4 base"},
-  SKODA_MIB4: {os:"MIB4 (Škoda Connect)",       chip:"Qualcomm SA8295",    cc:"chip-mib4",    note:"VW-Konzern platform"},
+  SKODA_MIB4: {os:"MIB4 (Škoda Connect)",       chip:"Qualcomm SA8295",    cc:"chip-mib4",    note:"VW Group platform"},
   PORSCHE_PCM: {os:"Porsche PCM 6.0",            chip:"Qualcomm SA8295",    cc:"chip-mib4",    note:"PCM High-Performance"},
   AUDI_MMI: {os:"Audi MMI / MIB4",           chip:"Qualcomm SA8295",    cc:"chip-mmis",    note:"VR-cockpit, e-tron GT"},
   MBUX: {os:"MBUX Hyperscreen",           chip:"NVIDIA Tegra / Snapdragon", cc:"chip-mbux", note:"Mercedes MBUX 2.0"},
@@ -856,8 +856,8 @@ const P = {
 
 /* VEHICLE_OVERRIDE_START */
 // Auto-generated — do NOT edit manually. Run update_dashboard.py to refresh.
-// Last updated: 2026-05-12 15:07 UTC  |  Source: Vehicle_Planing_Trial.xlsx
-// Verification: Verification: 507/508 checks passed, 1 issue(s) found
+// Last updated: 2026-05-13 11:03 UTC  |  Source: Vehicle_Planing_Trial.xlsx
+// Verification: Verification: 457/464 checks passed, 7 issue(s) found
 const VEHICLE_OVERRIDE = {
   "mazda": {
     "eu": [
@@ -911,7 +911,8 @@ const VEHICLE_OVERRIDE = {
     "eu": [],
     "us": [],
     "cn": [
-      "LS9 (MY2026)"
+      "LS9 (MY2026)",
+      "LS7 (MY2023)"
     ]
   },
   "maextro": {
@@ -940,7 +941,7 @@ const VEHICLE_OVERRIDE = {
       "Electra L7 (MY2025)"
     ]
   },
-  "lucid": {
+  "lucidmotors": {
     "eu": [],
     "us": [
       "Gravity (MY2026)",
@@ -1010,7 +1011,7 @@ const VEHICLE_OVERRIDE = {
     ],
     "cn": []
   },
-  "smart": {
+  "smarteu": {
     "eu": [
       "#5 (MY2025)",
       "#1 (MY2023)"
@@ -1040,7 +1041,7 @@ const VEHICLE_OVERRIDE = {
       "Tang EV (MY2020)"
     ]
   },
-  "xiaomi": {
+  "xiaomiauto": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1058,7 +1059,7 @@ const VEHICLE_OVERRIDE = {
       "8 (MY2023)"
     ]
   },
-  "astionmartin": {
+  "astonmartin": {
     "eu": [],
     "us": [
       "DBX707 (MY2025)"
@@ -1179,7 +1180,7 @@ const VEHICLE_OVERRIDE = {
     ],
     "cn": []
   },
-  "xiaopeng": {
+  "xpeng": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1238,7 +1239,8 @@ const VEHICLE_OVERRIDE = {
     "eu": [],
     "us": [],
     "cn": [
-      "L (MY2024)"
+      "L (MY2024)",
+      "Neta GT (MY2023)"
     ]
   },
   "honda": {
@@ -1262,7 +1264,8 @@ const VEHICLE_OVERRIDE = {
   },
   "kia": {
     "eu": [
-      "EV6 (MY2022)"
+      "EV6 (MY2022)",
+      "e-niro (MY2019)"
     ],
     "us": [
       "EV9 (MY2024)",
@@ -1297,7 +1300,7 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "volvo": {
+  "volvocars": {
     "eu": [
       "EX30 (MY2024)",
       "XC40 (MY2021)",
@@ -1347,7 +1350,7 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "jiyue": {
+  "jiyuejiyue": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1376,7 +1379,7 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "danza": {
+  "denza": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1388,13 +1391,6 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": [
       "S7 (MY2023)"
-    ]
-  },
-  "hozon": {
-    "eu": [],
-    "us": [],
-    "cn": [
-      "Neta GT (MY2023)"
     ]
   },
   "fisker": {
@@ -1442,7 +1438,7 @@ const VEHICLE_OVERRIDE = {
       "Alpha S (MY2022)"
     ]
   },
-  "rising": {
+  "risingauto": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1464,13 +1460,6 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "im": {
-    "eu": [],
-    "us": [],
-    "cn": [
-      "LS7 (MY2023)"
-    ]
-  },
   "peugeot": {
     "eu": [
       "408 (MY2023)",
@@ -1479,7 +1468,7 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "geely": {
+  "geelyauto": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1503,7 +1492,7 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "lixiang": {
+  "liauto": {
     "eu": [],
     "us": [],
     "cn": [
@@ -1554,14 +1543,15 @@ const VEHICLE_OVERRIDE = {
       "Free (MY2021)"
     ]
   },
-  "rangerover": {
+  "landrover": {
     "eu": [
-      "5 (MY2022)"
+      "5 (MY2022)",
+      "Defender (MY2020)"
     ],
     "us": [],
     "cn": []
   },
-  "opel": {
+  "opelvauxhall": {
     "eu": [
       "Astra (MY2022)",
       "Corsa e (MY2020)"
@@ -1597,13 +1587,6 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "landrover": {
-    "eu": [
-      "Defender (MY2020)"
-    ],
-    "us": [],
-    "cn": []
-  },
   "mclaren": {
     "eu": [
       "600lt Spider (MY2020)"
@@ -1625,13 +1608,6 @@ const VEHICLE_OVERRIDE = {
     "us": [],
     "cn": []
   },
-  "kiamotors": {
-    "eu": [
-      "e-niro (MY2019)"
-    ],
-    "us": [],
-    "cn": []
-  },
   "dsautomobiles": {
     "eu": [
       "DS 7 Crossback (MY2018)"
@@ -1647,7 +1623,7 @@ const VEHICLE_OVERRIDE = {
     "cn": []
   }
 };
-const DASHBOARD_LAST_UPDATED = "2026-05-12 15:07 UTC";
+const DASHBOARD_LAST_UPDATED = "2026-05-13 11:03 UTC";
 const DASHBOARD_EXCEL_SOURCE = "Vehicle_Planing_Trial.xlsx";
 const MARKET_SHARE_DATA = {
   "eu": {
@@ -1694,8 +1670,39 @@ const VERIFICATION_ISSUES = [
     "level": "WARN",
     "category": "EXCEL UNCHANGED",
     "message": "Vehicle_Planing_Trial.xlsx has NOT changed since the last update run. If you meant to update vehicle availability, make sure you saved the Excel file to the correct folder before running the update."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Lucid' (key='lucidmotors') is not in the known-brands registry. Models — EU:[] US:['Gravity (MY2026)', 'Air (MY2021)'] CN:[]. Action: If this is a real brand, add 'lucidmotors' to KNOWN_BRANDS in update_dashboard.py."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Smart (EU)' (key='smarteu') is not in the known-brands registry. Models — EU:['#5 (MY2025)', '#1 (MY2023)'] US:[] CN:[]. Action: If this is a real brand, add 'smarteu' to KNOWN_BRANDS in update_dashboard.py."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Xiaomi' (key='xiaomiauto') is not in the known-brands registry. Models — EU:[] US:[] CN:['YU7 (MY2025)', 'SU7 (MY2024)']. Action: If this is a real brand, add 'xiaomiauto' to KNOWN_BRANDS in update_dashboard.py."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Jiyue' (key='jiyuejiyue') is not in the known-brands registry. Models — EU:[] US:[] CN:['1 (MY2023)']. Action: If this is a real brand, add 'jiyuejiyue' to KNOWN_BRANDS in update_dashboard.py."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Geely' (key='geelyauto') is not in the known-brands registry. Models — EU:[] US:[] CN:['BoyueL (MY2022)', 'Preface (MY2021)']. Action: If this is a real brand, add 'geelyauto' to KNOWN_BRANDS in update_dashboard.py."
+  },
+  {
+    "level": "WARN",
+    "category": "UNKNOWN BRAND",
+    "message": "'Opel' (key='opelvauxhall') is not in the known-brands registry. Models — EU:['Astra (MY2022)', 'Corsa e (MY2020)'] US:[] CN:[]. Action: If this is a real brand, add 'opelvauxhall' to KNOWN_BRANDS in update_dashboard.py."
   }
 ];
+window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;
 /* VEHICLE_OVERRIDE_END */
 window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;
 
@@ -1978,7 +1985,7 @@ const groups_eu = [
        missingModels:["Model Y 2026 Juniper","Cybercab","Semi"],
        p:P.TESLA_V12},
     ]},
-  { id:"byd_eu", name:"BYD (Europa-Direktmarkt)", flag:"🇨🇳", origin:"Shenzhen",
+  { id:"byd_eu", name:"BYD (European Direct Market)", flag:"🇨🇳", origin:"Shenzhen",
     color:"var(--color-byd)",
     mkt:{pct:1.4, units:"187.657", src:"ACEA 2025"},
     brands:[
@@ -2029,7 +2036,7 @@ const groups_eu = [
        missingModels:["Type 00","Type 00 GT"],
        p:P.JLR_PIVI},
     ]},
-  { id:"other_eu", name:"Weitere brandn (EU-relevant)", flag:"🌍", origin:"Diverse",
+  { id:"other_eu", name:"Other Brands (EU-relevant)", flag:"🌍", origin:"Diverse",
     color:"var(--color-other)",
     mkt:{pct:1.5, units:"~200.000", src:"estimate 2025"},
     brands:[
@@ -2099,6 +2106,30 @@ const groups_eu = [
        models:[],
        missingModels:["R2","R3"],
        p:{os:"Rivian OS (Linux/Android)",chip:"NVIDIA",cc:"chip-android",note:"NVIDIA base"}},
+      {name:"Truck - DAF", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/daf.png", available:true,
+       sub:"XG, XF series — commercial vehicle",
+       mkt:{pct:null, units:"n/a"}, note:"Commercial vehicle",
+       models:[],
+       missingModels:["XG 450","XG+"],
+       p:{os:"DAF Connect (Linux)",chip:"n/a",cc:"chip-unknown",note:"Commercial IVI"}},
+      {name:"Truck - MAN", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/man.png", available:true,
+       sub:"TGX, TGS series — commercial vehicle",
+       mkt:{pct:null, units:"n/a"}, note:"Commercial vehicle",
+       models:[],
+       missingModels:["TGX","TGS"],
+       p:{os:"MAN RIO (Linux)",chip:"n/a",cc:"chip-unknown",note:"Commercial IVI"}},
+      {name:"Truck - Volvo", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/volvo-trucks.png", available:true,
+       sub:"FH, FM series — commercial vehicle",
+       mkt:{pct:null, units:"n/a"}, note:"Commercial vehicle",
+       models:[],
+       missingModels:["FH500","FM500"],
+       p:{os:"Volvo Trucks IVI (Android)",chip:"n/a",cc:"chip-unknown",note:"Commercial IVI"}},
+      {name:"Truck - Mercedes", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/mercedes-benz.png", available:true,
+       sub:"Actros, Arocs series — commercial vehicle",
+       mkt:{pct:null, units:"n/a"}, note:"Commercial vehicle",
+       models:[],
+       missingModels:["Actros","Arocs"],
+       p:{os:"Mercedes Trucks IVI",chip:"n/a",cc:"chip-unknown",note:"Commercial IVI"}},
     ]},
 ];
 
@@ -2466,7 +2497,7 @@ const groups_us = [
 
 const groups_cn = [
   { id:"byd", name:"BYD Group", flag:"🇨🇳", origin:"Shenzhen",
-    mkt:{pct:27.2, units:"3 484 525", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:27.2, units:"3 484 525", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"BYD Dynasty & Ocean", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/byd.png", available:true, sub:"Han, Tang, Song, Seal, Dolphin u.a.",
        mkt:{pct:22.0, units:"~2 850k", note:"~82% d. BYD NEV"},
@@ -2485,7 +2516,7 @@ const groups_cn = [
        models:[], missingModels:["Linghui e5","Linghui e7","Linghui M9"], p:P.BYD_DILINK},
     ]},
   { id:"geely", name:"Geely Holding Group", flag:"🇨🇳", origin:"Hangzhou",
-    mkt:{pct:12.2, units:"1 564 562", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:12.2, units:"1 564 562", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"Geely Auto (吉利)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/geely.png", available:true, sub:"Massenmarkt, SEA platform",
        mkt:{pct:3.5, units:"~450k", note:"Geely Pkw inkl. NEV"},
@@ -2508,9 +2539,15 @@ const groups_cn = [
       {name:"Smart CN (smart精灵)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/smart.png", available:false, sub:"Geely × Mercedes JV",
        mkt:{pct:0.5, units:"~65k", note:"Smart CN (Geely-based)"},
        models:[], missingModels:["Smart #3"], p:{os:"Android Automotive OS",chip:"Qualcomm 8155",cc:"chip-android",note:"AAOS, Geely-based"}},
+      {name:"Formula Leopard", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/geely.png", available:true,
+       sub:"Bao 8 — Geely luxury sub-brand",
+       mkt:{pct:null, units:"n/a"}, note:"Geely Group sub-brand",
+       models:[],
+       missingModels:["Bao 8","Bao 5"],
+       p:{os:"Android Automotive (Geely)",chip:"Qualcomm",cc:"chip-android",note:"AAOS-based"}},
     ]},
   { id:"changan", name:"Changan Automobile Group", flag:"🇨🇳", origin:"Chongqing",
-    mkt:{pct:6.2, units:"789 141", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:6.2, units:"789 141", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"Changan (长安)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/changan.png", available:false, sub:"Massenmarkt ICE & NEV",
        mkt:{pct:2.8, units:"~360k", note:"Changan brand gesamt"},
@@ -2526,7 +2563,7 @@ const groups_cn = [
        models:[], missingModels:["Qiyuan A05","Qiyuan A07","iCar 03"], p:P.QIYUAN_INF},
     ]},
   { id:"saic", name:"SAIC Motor Group (incl. GM JV)", flag:"🇨🇳", origin:"Shanghai",
-    mkt:{pct:6.0, units:"772 147", src:"CPCA 2025 NEV (SAIC-GM-Wuling)", type:"NEV-Markt"},
+    mkt:{pct:6.0, units:"772 147", src:"CPCA 2025 NEV (SAIC-GM-Wuling)", type:"NEV Market"},
     brands:[
       {name:"MG", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/mg.png", available:true, sub:"Global EV-brand",
        mkt:{pct:1.5, units:"~190k CN", note:"MG CN NEV inkl. Export"},
@@ -2551,7 +2588,7 @@ const groups_cn = [
        models:[], missingModels:["Maxus EUNIQ 6","Maxus EUNIQ 7"], p:P.MAXUS_INF},
     ]},
   { id:"gac", name:"GAC Group (广汽集团)", flag:"🇨🇳", origin:"Guangzhou",
-    mkt:{pct:4.5, units:"~578k", src:"CPCA 2025 NEV estimate", type:"NEV-Markt"},
+    mkt:{pct:4.5, units:"~578k", src:"CPCA 2025 NEV estimate", type:"NEV Market"},
     brands:[
       {name:"Aion (埃安)", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%230052b4'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='18' fill='white'%3EAION%3C/text%3E%3C/svg%3E", available:true, sub:"NEV Massenmarkt",
        mkt:{pct:3.5, units:"~450k", note:"Aion: größte NEV-Volumenmarke GAC"},
@@ -2562,9 +2599,15 @@ const groups_cn = [
       {name:"Trumpchi (传祺)", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%23880000'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='11' fill='white'%3ETRUMPCHI%3C/text%3E%3C/svg%3E", available:false, sub:"GAC Mainstream",
        mkt:{pct:0.5, units:"~60k NEV", note:"Trumpchi NEV-Anteil"},
        models:[], missingModels:["Trumpchi M8","Trumpchi GS8","Trumpchi E9"], p:P.TRUMPCHI_INF},
+      {name:"Hyper", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/gac.png", available:true,
+       sub:"Hyper GT, Hyper SSR — GAC sub-brand",
+       mkt:{pct:null, units:"n/a"}, note:"GAC premium EV sub-brand",
+       models:[],
+       missingModels:["Hyper GT","Hyper SSR"],
+       p:{os:"Android Automotive (GAC)",chip:"Qualcomm",cc:"chip-android",note:"AAOS-based"}},
     ]},
   { id:"gwm", name:"Great Wall Motor (GWM)", flag:"🇨🇳", origin:"Baoding",
-    mkt:{pct:2.8, units:"~360k", src:"GWM NEV 2025 estimate", type:"NEV-Markt"},
+    mkt:{pct:2.8, units:"~360k", src:"GWM NEV 2025 estimate", type:"NEV Market"},
     brands:[
       {name:"Haval (哈弗)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/haval.png", available:false, sub:"SUV-Spezialist, weltweit präsent",
        mkt:{pct:1.2, units:"~155k NEV", note:"Haval PHEV-Anteil steigend"},
@@ -2583,7 +2626,7 @@ const groups_cn = [
        models:[], missingModels:["POER Cannon","POER King Kong"], p:P.GWM_COFFEE},
     ]},
   { id:"chery", name:"Chery Automobile Group", flag:"🇨🇳", origin:"Wuhu",
-    mkt:{pct:4.1, units:"531 413", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:4.1, units:"531 413", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"Chery (奇瑞)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/chery.png", available:false, sub:"Massenmarkt Global",
        mkt:{pct:1.8, units:"~230k", note:"Chery Massenmarkt NEV"},
@@ -2608,14 +2651,14 @@ const groups_cn = [
        models:[], missingModels:["iCar 03","iCar V23"], p:P.ICAR_INF},
     ]},
   { id:"leapmotor", name:"Leapmotor / Stellantis JV", flag:"🇨🇳", origin:"Hangzhou",
-    mkt:{pct:4.1, units:"529 503", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:4.1, units:"529 503", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"Leapmotor (零跑)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/leapmotor.png", available:true, sub:"Budget-Premium EV, Stellantis JV",
        mkt:{pct:4.1, units:"529 503", note:"Gesamte Gruppe = Leapmotor"},
        models:["C01 (MY2023)"], missingModels:["Leapmotor C10","Leapmotor C16","Leapmotor T03","Leapmotor B10"], p:P.LEAPMOTOR_OS},
     ]},
   { id:"seres", name:"Seres / AITO (赛力斯)", flag:"🇨🇳", origin:"Chongqing",
-    mkt:{pct:3.3, units:"422 920", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:3.3, units:"422 920", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"AITO (问界)", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%23c00'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='16' fill='white'%3EAITO%3C/text%3E%3C/svg%3E", available:true, sub:"Huawei Smart Car brand",
        mkt:{pct:3.0, units:"~385k", note:"AITO Hauptmarke Seres"},
@@ -2625,14 +2668,14 @@ const groups_cn = [
        models:["SF5 (MY2022)"], missingModels:["Seres 7","Seres 5"], p:P.SERES_HARMONY},
     ]},
   { id:"xiaomi", name:"Xiaomi Auto (小米汽车)", flag:"🇨🇳", origin:"Beijing",
-    mkt:{pct:3.2, units:"411 837", src:"CPCA 2025 NEV", type:"NEV-Markt"},
+    mkt:{pct:3.2, units:"411 837", src:"CPCA 2025 NEV", type:"NEV Market"},
     brands:[
       {name:"Xiaomi Auto", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%23ff6900'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='12' fill='white'%3EXIAOMI%3C/text%3E%3C/svg%3E", available:true, sub:"Tech-Brand EV, HyperOS, +201% YoY",
        mkt:{pct:3.2, units:"411 837", note:"Gesamte Gruppe = Xiaomi Auto"},
        models:["YU7 (MY2025)","SU7 (MY2024)"], missingModels:["Xiaomi SU7 Ultra","Xiaomi SU7 Pro"], p:P.XIAOMI_OS},
     ]},
   { id:"nio", name:"NIO Inc.", flag:"🇨🇳", origin:"Shanghai / Hefei",
-    mkt:{pct:2.2, units:"~280k", src:"NIO + ONVO 2025 estimate", type:"NEV-Markt"},
+    mkt:{pct:2.2, units:"~280k", src:"NIO + ONVO 2025 estimate", type:"NEV Market"},
     brands:[
       {name:"NIO", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/nio.png", available:true, sub:"Premium EV, Batterietausch",
        mkt:{pct:1.6, units:"~210k", note:"NIO Hauptmarke 2025"},
@@ -2645,21 +2688,21 @@ const groups_cn = [
        models:[], missingModels:[], p:P.FIREFLY_NIO},
     ]},
   { id:"xpeng", name:"XPeng (小鹏)", flag:"🇨🇳", origin:"Guangzhou",
-    mkt:{pct:1.8, units:"~230k", src:"XPeng NEV 2025 estimate", type:"NEV-Markt"},
+    mkt:{pct:1.8, units:"~230k", src:"XPeng NEV 2025 estimate", type:"NEV Market"},
     brands:[
       {name:"XPeng", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/xpeng.png", available:true, sub:"Smart EV, Turing AI-Chip (eigen)",
        mkt:{pct:1.8, units:"~230k", note:"XPeng NEV 2025, +140% YoY"},
        models:["Mona 3 (MY2024)","X9 (MY2023)","G9 (MY2022)","P7 (MY2020)"], missingModels:["XPeng X9","XPeng G6","XPeng P7+"], p:P.XPENG_OS},
     ]},
   { id:"liaut", name:"Li Auto / Lixiang (理想)", flag:"🇨🇳", origin:"Beijing",
-    mkt:{pct:2.0, units:"~256k", src:"Li Auto NEV 2025 estimate", type:"NEV-Markt"},
+    mkt:{pct:2.0, units:"~256k", src:"Li Auto NEV 2025 estimate", type:"NEV Market"},
     brands:[
       {name:"Li Auto", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/li-auto.png", available:true, sub:"EREV Premium Family SUV",
        mkt:{pct:2.0, units:"~256k", note:"Li Auto 2025, Mind GPT"},
        models:["L9 (MY2022)","One (MY2019)"], missingModels:["Li L6","Li L7","Li L8","Li Mega","Li W01"], p:P.LIUTO_AD},
     ]},
   { id:"faw", name:"FAW Group (第一汽车)", flag:"🇨🇳", origin:"Changchun",
-    mkt:{pct:1.0, units:"~128k", src:"FAW NEV estimate 2025", type:"NEV-Markt"},
+    mkt:{pct:1.0, units:"~128k", src:"FAW NEV estimate 2025", type:"NEV Market"},
     brands:[
       {name:"Hongqi (红旗)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/hongqi.png", available:false, sub:"State-owned luxury brand",
        mkt:{pct:0.6, units:"~77k", note:"Hongqi NEV estimate"},
@@ -2669,7 +2712,7 @@ const groups_cn = [
        models:[], missingModels:["Bestune T99","Bestune B70","Bestune Yueyi 08"], p:P.BESTUNE_INF},
     ]},
   { id:"dongfeng", name:"Dongfeng Motor Group", flag:"🇨🇳", origin:"Wuhan",
-    mkt:{pct:1.2, units:"~154k", src:"Dongfeng NEV estimate 2025", type:"NEV-Markt"},
+    mkt:{pct:1.2, units:"~154k", src:"Dongfeng NEV estimate 2025", type:"NEV Market"},
     brands:[
       {name:"Voyah (岚图)", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%231a1a2e'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='14' fill='%2300d4ff'%3EVOYAH%3C/text%3E%3C/svg%3E", available:true, sub:"Premium EV (Dongfeng)",
        mkt:{pct:0.6, units:"~77k", note:"Voyah NEV 2025"},
@@ -2685,7 +2728,7 @@ const groups_cn = [
        models:[], missingModels:["Aeolus AX7","Aeolus E70"], p:P.AEOLUS_INF},
     ]},
   { id:"baic", name:"BAIC Group (北汽集团)", flag:"🇨🇳", origin:"Beijing",
-    mkt:{pct:1.0, units:"~128k", src:"BAIC NEV estimate 2025", type:"NEV-Markt"},
+    mkt:{pct:1.0, units:"~128k", src:"BAIC NEV estimate 2025", type:"NEV Market"},
     brands:[
       {name:"Arcfox (极狐)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/arcfox.png", available:true, sub:"Premium EV (BAIC × Huawei HI)",
        mkt:{pct:0.4, units:"~51k", note:"Arcfox HI Premium"},
@@ -2698,7 +2741,7 @@ const groups_cn = [
        models:[], missingModels:["BAIC EU5","BAIC EX5","BAIC EC3"], p:P.BAIC_INF},
     ]},
   { id:"jac", name:"JAC Group (江淮)", flag:"🇨🇳", origin:"Hefei",
-    mkt:{pct:0.8, units:"~103k", src:"JAC NEV estimate 2025", type:"NEV-Markt"},
+    mkt:{pct:0.8, units:"~103k", src:"JAC NEV estimate 2025", type:"NEV Market"},
     brands:[
       {name:"JAC (江淮)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/jac.png", available:false, sub:"Mainstream EV / ICE",
        mkt:{pct:0.4, units:"~51k", note:"JAC mainstream"},
@@ -2711,14 +2754,14 @@ const groups_cn = [
        models:[], missingModels:["Yiwei EX4","Yiwei EX6"], p:P.YIWEI_INF},
     ]},
   { id:"hozon", name:"Hozon Auto / Neta (合众)", flag:"🇨🇳", origin:"Tongxiang",
-    mkt:{pct:0.7, units:"~90k", src:"Neta NEV estimate 2025", type:"NEV-Markt"},
+    mkt:{pct:0.7, units:"~90k", src:"Neta NEV estimate 2025", type:"NEV Market"},
     brands:[
       {name:"Neta (哪吒)", logo:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40'%3E%3Crect width='80' height='40' rx='4' fill='%23e64400'/%3E%3Ctext x='40' y='27' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='16' fill='white'%3ENETA%3C/text%3E%3C/svg%3E", available:true, sub:"Budget EV, Neta L, GT u.a.",
        mkt:{pct:0.7, units:"~90k", note:"Neta 2025, declining"},
        models:["L (MY2024)","Neta GT (MY2023)"], missingModels:["Neta V","Neta U","Neta X","Neta AYA"], p:P.NETA_OS},
     ]},,
   { id:"hiphi", name:"HiPhi / Human Horizons (华人运通)", flag:"🇨🇳", origin:"Shanghai",
-    mkt:{pct:0.01, units:"~1.000", src:"CPCA 2024", type:"NEV-Markt"},
+    mkt:{pct:0.01, units:"~1.000", src:"CPCA 2024", type:"NEV Market"},
     brands:[
       {name:"Hiphi", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/human-horizons.png", available:true,
        sub:"⚠️ Near-bankrupt luxury EV",
@@ -2761,7 +2804,13 @@ const groups_cn = [
        mkt:{pct:0.0, units:"~0"}, note:"Bankrupt 2023",
        models:["W6 (MY2021)"],
        missingModels:[],
-       p:P.WM_OS}
+       p:P.WM_OS},
+      {name:"Rox (Jishi)", logo:"https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/thumb/catl.png", available:true,
+       sub:"ADAMAS — CATL-backed EV brand",
+       mkt:{pct:null, units:"n/a"}, note:"CATL spin-off brand",
+       models:[],
+       missingModels:["ADAMAS"],
+       p:{os:"Android Automotive",chip:"Qualcomm",cc:"chip-android",note:"AAOS-based"}},
     ]}
 ];
 
