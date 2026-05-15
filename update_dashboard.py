@@ -107,6 +107,8 @@ KNOWN_BRANDS = {
     "chery", "exeed", "jetour", "jaecoo", "omoda", "luxeed", "icar",
     "weltmeister", "byton",
     "formulaleopard", "roxjishi",
+    "lucidmotors", "smarteu", "smartcnsmart", "xiaomiauto",
+    "jiyuejiyue", "geelyauto", "opelvauxhall",  # aliased dashboard keys
     # Additional variants found in Excel
     "volvo",           # Volvo Cars
     "geely",           # Geely Auto
@@ -156,6 +158,32 @@ log = logging.getLogger("dashboard_updater")
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# BRAND ALIASES — map Excel short names → dashboard HTML brand-name keys
+# ═══════════════════════════════════════════════════════════════════════════
+# When a brand in the Excel file uses a different name than the dashboard HTML,
+# add it here.  Key = nb(Excel brand name), Value = nb(dashboard brand name).
+BRAND_ALIASES: dict[str, str] = {
+    "volvo":        "volvocars",        # "Volvo Cars" in dashboard
+    "opel":         "opelvauxhall",     # "Opel / Vauxhall" in dashboard
+    "lucid":        "lucidmotors",      # "Lucid Motors" in dashboard
+    "geely":        "geelyauto",        # "Geely Auto (吉利)" in dashboard
+    "xiaomi":       "xiaomiauto",       # "Xiaomi Auto" in dashboard
+    "xiaopeng":     "xpeng",            # "XPeng" in dashboard
+    "lixiang":      "liauto",           # "Li Auto" in dashboard
+    "im":           "immotors",         # "IM Motors (智己)" – short form in Excel
+    "kiamotors":    "kia",              # "Kia motors" spelling variant
+    "rangerover":   "landrover",        # Range Rover is Land Rover's flagship line
+    "danza":        "denza",            # Danza/Denza spelling variant
+    "astionmartin": "astonmartin",      # Typo in Excel: "Astion" → "Aston"
+    "jiyue":        "jiyuejiyue",       # "JiYue / JIYUE (极越)"
+    "rising":       "risingauto",       # "Rising Auto (飞凡)"
+    "hozon":        "neta",             # Hozon = parent company; brand = Neta
+}
+
+# Smart has separate EU and CN dashboard entries
+SMART_MARKET_KEYS = {"eu": "smarteu", "cn": "smartcnsmart"}
+
+# ═══════════════════════════════════════════════════════════════════════════
 # UTILITIES
 # ═══════════════════════════════════════════════════════════════════════════
 def nb(s: str) -> str:
@@ -163,6 +191,33 @@ def nb(s: str) -> str:
     s = unicodedata.normalize("NFD", str(s))
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-z0-9]", "", s.lower().strip())
+
+
+def apply_brand_aliases(brands: dict) -> dict:
+    """
+    Remap Excel brand keys to the keys used in dashboard.html group data.
+    Merges models when multiple Excel entries map to the same dashboard key.
+    """
+    result: dict = {}
+    for key, data in brands.items():
+        if key == "smart":
+            # Smart has separate EU and CN dashboard entries
+            for market, dash_key in SMART_MARKET_KEYS.items():
+                if data[market]:
+                    if dash_key not in result:
+                        result[dash_key] = {"display": f"Smart ({market.upper()})", "eu": [], "us": [], "cn": []}
+                    result[dash_key][market].extend(
+                        m for m in data[market] if m not in result[dash_key][market]
+                    )
+            continue
+        target = BRAND_ALIASES.get(key, key)
+        if target not in result:
+            result[target] = {"display": data["display"], "eu": [], "us": [], "cn": []}
+        for market in ("eu", "us", "cn"):
+            result[target][market].extend(
+                m for m in data[market] if m not in result[target][market]
+            )
+    return result
 
 
 def load_snapshot() -> dict:
@@ -501,6 +556,16 @@ def verify_excel_file_changed(path: Path, snapshot: dict, report: VerificationRe
 # ═══════════════════════════════════════════════════════════════════════════
 # STEP 4 — BUILD JS OVERRIDE BLOCK
 # ═══════════════════════════════════════════════════════════════════════════
+# Dashboard brand names sometimes differ from Excel names (e.g. "Audi (CN)" vs "AUDI")
+# These extra keys ensure CN/variant dashboard entries get overrides applied.
+DASHBOARD_KEY_EXTRAS: dict[str, str] = {
+    "audicn":           "audi",             # "Audi (CN)" in CN groups
+    "buickcn":          "buick",            # "Buick (CN)" in CN groups
+    "byddynastyocean":  "byd",              # "BYD Dynasty & Ocean"
+    "mgsaic":           "mg",               # "MG (SAIC)"
+    "nissancn":         "nissan",           # "Nissan (CN)"
+}
+
 def build_override_block(brands: dict, market_share: dict,
                           report: VerificationReport, ts: str) -> str:
     override = {}
@@ -508,6 +573,10 @@ def build_override_block(brands: dict, market_share: dict,
         override[key] = {
             "eu": data["eu"], "us": data["us"], "cn": data["cn"]
         }
+    # Add variant keys so CN dashboard brand names (e.g. "Audi (CN)") also get matched
+    for dash_key, base_key in DASHBOARD_KEY_EXTRAS.items():
+        if base_key in override:
+            override[dash_key] = override[base_key]
 
     issues_json = json.dumps([
         {"level": i["level"], "category": i["category"], "message": i["message"]}
@@ -524,6 +593,8 @@ def build_override_block(brands: dict, market_share: dict,
         f"const DASHBOARD_EXCEL_SOURCE = \"{EXCEL_FILE.name}\";\n"
         f"const MARKET_SHARE_DATA = {json.dumps(market_share, ensure_ascii=False, indent=2)};\n"
         f"const VERIFICATION_ISSUES = {issues_json};\n"
+        f"window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;\n"
+        f"window.DASHBOARD_LAST_UPDATED = DASHBOARD_LAST_UPDATED;\n"
         f"/* VEHICLE_OVERRIDE_END */"
     )
 
@@ -590,6 +661,8 @@ def main():
     brands = read_excel(EXCEL_FILE)
     if not brands:
         log.error("No brand data — aborting."); return 1
+    brands = apply_brand_aliases(brands)
+    log.info(f"  → After alias mapping: {len(brands)} dashboard keys")
 
     # ── 2. Web research ──────────────────────────────────────────────────
     log.info("\n[2/4] Fetching live market data from web…")
