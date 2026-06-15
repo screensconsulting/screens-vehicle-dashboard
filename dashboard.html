@@ -856,9 +856,21 @@ const P = {
 
 /* VEHICLE_OVERRIDE_START */
 // Auto-generated — do NOT edit manually. Run update_dashboard.py to refresh.
-// Last updated: 2026-06-08 17:40 UTC  |  Source: Vehicle_Planing_Trial.xlsx
+// Last updated: 2026-06-15 12:42 UTC  |  Source: Vehicle_Planing_Trial.xlsx
 // Verification: Verification: 463/464 checks passed, 1 issue(s) found
 const VEHICLE_OVERRIDE = {
+  "kia": {
+    "eu": [
+      "PV5 Passenger (MY2026)",
+      "EV6 (MY2022)",
+      "e-niro (MY2019)"
+    ],
+    "us": [
+      "EV9 (MY2024)",
+      "Carnival (MY2022)"
+    ],
+    "cn": []
+  },
   "mazda": {
     "eu": [
       "MX 30 (MY2020)"
@@ -1008,24 +1020,6 @@ const VEHICLE_OVERRIDE = {
       "Blazer EV (MY2024)",
       "Tahoe (MY2022)",
       "Bolt EV (MY2022)"
-    ],
-    "cn": []
-  },
-  "smarteu": {
-    "eu": [
-      "#5 (MY2025)",
-      "#1 (MY2023)"
-    ],
-    "us": [],
-    "cn": []
-  },
-  "cadillac": {
-    "eu": [],
-    "us": [
-      "Escalade (MY2025)",
-      "Lyriq (MY2022)",
-      "CT4-V (MY2022)",
-      "Escalade (MY2021)"
     ],
     "cn": []
   },
@@ -1262,17 +1256,6 @@ const VEHICLE_OVERRIDE = {
       "GT (MY2023)"
     ]
   },
-  "kia": {
-    "eu": [
-      "EV6 (MY2022)",
-      "e-niro (MY2019)"
-    ],
-    "us": [
-      "EV9 (MY2024)",
-      "Carnival (MY2022)"
-    ],
-    "cn": []
-  },
   "mg": {
     "eu": [
       "4 Electric (MY2024)"
@@ -1458,6 +1441,22 @@ const VEHICLE_OVERRIDE = {
       "Stelvio (MY2020)"
     ],
     "us": [],
+    "cn": []
+  },
+  "smarteu": {
+    "eu": [
+      "#1 (MY2023)"
+    ],
+    "us": [],
+    "cn": []
+  },
+  "cadillac": {
+    "eu": [],
+    "us": [
+      "Lyriq (MY2022)",
+      "CT4-V (MY2022)",
+      "Escalade (MY2021)"
+    ],
     "cn": []
   },
   "peugeot": {
@@ -1678,7 +1677,7 @@ const VEHICLE_OVERRIDE = {
     ]
   }
 };
-const DASHBOARD_LAST_UPDATED = "2026-06-08 17:40 UTC";
+const DASHBOARD_LAST_UPDATED = "2026-06-15 12:42 UTC";
 const DASHBOARD_EXCEL_SOURCE = "Vehicle_Planing_Trial.xlsx";
 const MARKET_SHARE_DATA = {
   "eu": {
@@ -1723,8 +1722,8 @@ const MARKET_SHARE_DATA = {
 const VERIFICATION_ISSUES = [
   {
     "level": "WARN",
-    "category": "EXCEL UNCHANGED",
-    "message": "Vehicle_Planing_Trial.xlsx has NOT changed since the last update run. If you meant to update vehicle availability, make sure you saved the Excel file to the correct folder before running the update."
+    "category": "MODELS REMOVED",
+    "message": "Cadillac US: 4 → 3 models. Removed: ['Escalade (MY2025)']. If intentional (vehicle discontinued / removed from Screens), this is fine. If unexpected, check the Excel sheet row for this brand."
   }
 ];
 window.VEHICLE_OVERRIDE = VEHICLE_OVERRIDE;
