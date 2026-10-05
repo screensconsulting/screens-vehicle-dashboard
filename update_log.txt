@@ -15455,3 +15455,501 @@
 2026-09-28 14:40:53,969  INFO        ⚠   Update complete — 1 issue(s) flagged.
 2026-09-28 14:40:53,969  INFO            See verification_report.txt for details.
 2026-09-28 14:40:53,969  INFO      ========================================================================
+2026-10-05 15:22:42,058  INFO      ========================================================================
+2026-10-05 15:22:42,058  INFO        Screens Studio Dashboard Updater  v3.0
+2026-10-05 15:22:42,058  INFO        Run: 2026-10-05 15:22:42  |  Vehicle_Planing_Trial.xlsx
+2026-10-05 15:22:42,058  INFO      ========================================================================
+2026-10-05 15:22:42,058  INFO      
+[1/4] Reading Excel vehicle data…
+2026-10-05 15:22:42,059  INFO      Reading Excel: Vehicle_Planing_Trial.xlsx
+2026-10-05 15:22:42,161  INFO        → 96 unique brands | EU: 52 | US: 24 | CN: 40
+2026-10-05 15:22:42,161  INFO        → After alias mapping: 92 dashboard keys
+2026-10-05 15:22:42,162  INFO      
+[2/4] Fetching live market data from web…
+2026-10-05 15:22:42,951  WARNING     ACEA EU registrations returned HTTP 202 — using cached values
+2026-10-05 15:22:42,952  INFO      
+[3/4] Running verification checks…
+2026-10-05 15:22:42,952  INFO      Checking if Excel file has changed since last run…
+2026-10-05 15:22:42,955  INFO        ✓ Excel file has been modified since last run — fresh data loaded
+2026-10-05 15:22:42,955  INFO      Verifying Excel brand names…
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: Mercedes-Benz
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: BMW
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: Li Xiang
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: Zeekr
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: Nissan
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: M-Hero
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: Genesis
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: BYD
+2026-10-05 15:22:42,955  INFO        ✓ Known brand: KIA
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Mazda
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Rox (Jishi)
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Toyota
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: AUDI
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Lincoln
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: IM Motors
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Maextro
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Wey
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Buick
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Lucid
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Ford
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Jeep
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Chevrolet
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Xiaomi
+2026-10-05 15:22:42,956  INFO        ✓ Known brand: Lynk & Co
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Astion Martin
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Nio
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Skoda
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Renault
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Cupra
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Rivian
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Porsche
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Tesla
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Formula Leopard
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Dodge
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Polestar
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Stelato
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Infiniti
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: XiaoPeng
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Acura
+2026-10-05 15:22:42,957  INFO        ✓ Known brand: Truck - DAF
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Aion
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Galaxy
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Mini
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Truck - MAN
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Neta
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Honda
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Hyper
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: MG
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Hyundai
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Truck - Volvo
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Volvo
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Avatr
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Vinfast
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Roewe
+2026-10-05 15:22:42,958  INFO        ✓ Known brand: Volkswagen
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Truck - Mercedes
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Jiyue
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Baojun
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Hiphi
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Lotus
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Danza
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Deepal
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Fisker
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Ora
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Suzuki
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Lexus
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Citroen
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Arcfox
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Rising
+2026-10-05 15:22:42,959  INFO        ✓ Known brand: Leapmotor
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Alfa Romeo
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Smart (EU)
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Cadillac
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Peugeot
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Geely
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Subaru
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: AITO
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: GMC
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Maserati
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Seres
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Voyah
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Range Rover
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Opel
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Lamborghini
+2026-10-05 15:22:42,960  INFO        ✓ Known brand: Weltmeister
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: Aiways
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: Fiat
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: McLaren
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: Seat
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: BYTON
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: DS Automobiles
+2026-10-05 15:22:42,961  INFO        ✓ Known brand: Jaguar
+2026-10-05 15:22:42,961  INFO      Verifying Excel completeness…
+2026-10-05 15:22:42,961  INFO        ✓ Mercedes-Benz: 8 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ BMW: 4 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ Li Xiang: 2 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ Zeekr: 5 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ Nissan: 6 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ M-Hero: 1 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ Genesis: 3 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ BYD: 6 total model(s) across all markets
+2026-10-05 15:22:42,961  INFO        ✓ KIA: 5 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Mazda: 2 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Rox (Jishi): 1 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Toyota: 3 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ AUDI: 5 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Lincoln: 3 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ IM Motors: 2 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Maextro: 1 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Wey: 3 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Buick: 2 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Lucid: 2 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Ford: 9 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Jeep: 3 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Chevrolet: 4 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Xiaomi: 2 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Lynk & Co: 3 total model(s) across all markets
+2026-10-05 15:22:42,962  INFO        ✓ Astion Martin: 1 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Nio: 3 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Skoda: 3 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Renault: 3 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Cupra: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Rivian: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Porsche: 3 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Tesla: 7 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Formula Leopard: 1 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Dodge: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Polestar: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Stelato: 1 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Infiniti: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ XiaoPeng: 4 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Acura: 2 total model(s) across all markets
+2026-10-05 15:22:42,963  INFO        ✓ Truck - DAF: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Aion: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Galaxy: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Mini: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Truck - MAN: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Neta: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Honda: 5 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Hyper: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ MG: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Hyundai: 4 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Truck - Volvo: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Volvo: 3 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Avatr: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Vinfast: 1 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Roewe: 2 total model(s) across all markets
+2026-10-05 15:22:42,964  INFO        ✓ Volkswagen: 5 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Truck - Mercedes: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Jiyue: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Baojun: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Hiphi: 2 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Lotus: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Danza: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Deepal: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Fisker: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Ora: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Suzuki: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Lexus: 2 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Citroen: 2 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Arcfox: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Rising: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Leapmotor: 1 total model(s) across all markets
+2026-10-05 15:22:42,965  INFO        ✓ Alfa Romeo: 2 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Smart (EU): 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Cadillac: 3 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Peugeot: 2 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Geely: 2 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Subaru: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ AITO: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ GMC: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Maserati: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Seres: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Voyah: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Range Rover: 2 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Opel: 2 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Lamborghini: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Weltmeister: 1 total model(s) across all markets
+2026-10-05 15:22:42,966  INFO        ✓ Aiways: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ Fiat: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ McLaren: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ Seat: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ BYTON: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ DS Automobiles: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO        ✓ Jaguar: 1 total model(s) across all markets
+2026-10-05 15:22:42,967  INFO      Verifying model counts vs previous snapshot…
+2026-10-05 15:22:42,967  INFO        ✓ Mercedes-Benz EU: +1 model(s) added: ['GLC Elektro (MY2026)']
+2026-10-05 15:22:42,967  INFO        ✓ Mercedes-Benz US: 0 model(s) — unchanged
+2026-10-05 15:22:42,967  INFO        ✓ Mercedes-Benz CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,967  INFO        ✓ BMW EU: +1 model(s) added: ['iX3 (MY2026)']
+2026-10-05 15:22:42,967  INFO        ✓ BMW US: 0 model(s) — unchanged
+2026-10-05 15:22:42,967  INFO        ✓ BMW CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,967  INFO        ✓ New brand in Excel: Li Xiang
+2026-10-05 15:22:42,967  INFO        ✓ Zeekr EU: +1 model(s) added: ['7x (MY2025)']
+2026-10-05 15:22:42,968  INFO        ✓ Zeekr US: 0 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ Zeekr CN: +1 model(s) added: ['8x (MY2026)']
+2026-10-05 15:22:42,968  INFO        ✓ Nissan EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ Nissan US: +1 model(s) added: ['Leaf SV+ (MY2026)']
+2026-10-05 15:22:42,968  INFO        ✓ Nissan CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ New brand in Excel: M-Hero
+2026-10-05 15:22:42,968  INFO        ✓ Genesis EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ Genesis US: +1 model(s) added: ['GV80 (MY2025)']
+2026-10-05 15:22:42,968  INFO        ✓ Genesis CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ BYD EU: +1 model(s) added: ['Dolphin Surf (MY2025)']
+2026-10-05 15:22:42,968  INFO        ✓ BYD US: 0 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ BYD CN: 4 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ KIA EU: +2 model(s) added: ['PV5 Passenger (MY2026)', 'e-niro (MY2019)']
+2026-10-05 15:22:42,968  INFO        ✓ KIA US: 2 model(s) — unchanged
+2026-10-05 15:22:42,968  INFO        ✓ KIA CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Mazda EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Mazda US: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Mazda CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Rox (Jishi) EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Rox (Jishi) US: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Rox (Jishi) CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Toyota EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Toyota US: 2 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Toyota CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ AUDI EU: 4 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ AUDI US: 0 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ AUDI CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Lincoln EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Lincoln US: 2 model(s) — unchanged
+2026-10-05 15:22:42,969  INFO        ✓ Lincoln CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ IM Motors EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ IM Motors US: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ IM Motors CN: +1 model(s) added: ['LS7 (MY2023)']
+2026-10-05 15:22:42,970  INFO        ✓ Maextro EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Maextro US: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Maextro CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Wey EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Wey US: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Wey CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Buick EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Buick US: 1 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Buick CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ New brand in Excel: Lucid
+2026-10-05 15:22:42,970  INFO        ✓ Ford EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,970  INFO        ✓ Ford US: 6 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Ford CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Jeep EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Jeep US: 2 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Jeep CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Chevrolet EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Chevrolet US: 4 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Chevrolet CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ New brand in Excel: Xiaomi
+2026-10-05 15:22:42,971  INFO        ✓ Lynk & Co EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Lynk & Co US: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Lynk & Co CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ New brand in Excel: Astion Martin
+2026-10-05 15:22:42,971  INFO        ✓ Nio EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Nio US: 0 model(s) — unchanged
+2026-10-05 15:22:42,971  INFO        ✓ Nio CN: 3 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Skoda EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Skoda US: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Skoda CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Renault EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Renault US: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Renault CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Cupra EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Cupra US: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Cupra CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Rivian EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Rivian US: 2 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Rivian CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Porsche EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Porsche US: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Porsche CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,972  INFO        ✓ Tesla EU: 4 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Tesla US: 3 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Tesla CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Formula Leopard EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Formula Leopard US: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Formula Leopard CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Dodge EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Dodge US: 1 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Dodge CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Polestar EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Polestar US: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Polestar CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Stelato EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Stelato US: 0 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Stelato CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,973  INFO        ✓ Infiniti EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Infiniti US: 2 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Infiniti CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ New brand in Excel: XiaoPeng
+2026-10-05 15:22:42,974  INFO        ✓ Acura EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Acura US: 2 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Acura CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Truck - DAF EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Truck - DAF US: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Truck - DAF CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Aion EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Aion US: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Aion CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Galaxy EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Galaxy US: 0 model(s) — unchanged
+2026-10-05 15:22:42,974  INFO        ✓ Galaxy CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Mini EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Mini US: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Mini CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Truck - MAN EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Truck - MAN US: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Truck - MAN CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Neta EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Neta US: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Neta CN: +1 model(s) added: ['Neta GT (MY2023)']
+2026-10-05 15:22:42,975  INFO        ✓ Honda EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Honda US: 2 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Honda CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Hyper EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Hyper US: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Hyper CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ MG EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ MG US: 0 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ MG CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Hyundai EU: 3 model(s) — unchanged
+2026-10-05 15:22:42,975  INFO        ✓ Hyundai US: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Hyundai CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Volvo EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Volvo US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Volvo CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ New brand in Excel: Volvo
+2026-10-05 15:22:42,976  INFO        ✓ Avatr EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Avatr US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Avatr CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Vinfast EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Vinfast US: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Vinfast CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Roewe EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Roewe US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Roewe CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Volkswagen EU: 5 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Volkswagen US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Volkswagen CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Mercedes EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Mercedes US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Truck - Mercedes CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ New brand in Excel: Jiyue
+2026-10-05 15:22:42,976  INFO        ✓ Baojun EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Baojun US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Baojun CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Hiphi EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Hiphi US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Hiphi CN: 2 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Lotus EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Lotus US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Lotus CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ New brand in Excel: Danza
+2026-10-05 15:22:42,976  INFO        ✓ Deepal EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Deepal US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Deepal CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Fisker EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Fisker US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Fisker CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Ora EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Ora US: 0 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Ora CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,976  INFO        ✓ Suzuki EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Suzuki US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Suzuki CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Lexus EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Lexus US: 1 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Lexus CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Citroen EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Citroen US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Citroen CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Arcfox EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Arcfox US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Arcfox CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ New brand in Excel: Rising
+2026-10-05 15:22:42,977  INFO        ✓ Leapmotor EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Leapmotor US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Leapmotor CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Alfa Romeo EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Alfa Romeo US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Alfa Romeo CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ New brand in Excel: Smart (EU)
+2026-10-05 15:22:42,977  INFO        ✓ Cadillac EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  WARNING     ⚠  [MODELS REMOVED] Cadillac US: 4 → 3 models. Removed: ['Escalade (MY2025)']. If intentional (vehicle discontinued / removed from Screens), this is fine. If unexpected, check the Excel sheet row for this brand.
+2026-10-05 15:22:42,977  INFO        ✓ Cadillac CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Peugeot EU: 2 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Peugeot US: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Peugeot CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ New brand in Excel: Geely
+2026-10-05 15:22:42,977  INFO        ✓ Subaru EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,977  INFO        ✓ Subaru US: 1 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Subaru CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ AITO EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ AITO US: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ AITO CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ GMC EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ GMC US: 1 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ GMC CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Maserati EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Maserati US: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Maserati CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Seres EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Seres US: 0 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Seres CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,978  INFO        ✓ Voyah EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Voyah US: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Voyah CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Range Rover EU: +1 model(s) added: ['5 (MY2022)']
+2026-10-05 15:22:42,979  INFO        ✓ Range Rover US: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Range Rover CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ New brand in Excel: Opel
+2026-10-05 15:22:42,979  INFO        ✓ Lamborghini EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Lamborghini US: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Lamborghini CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Weltmeister EU: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Weltmeister US: 0 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Weltmeister CN: 1 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Aiways EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,979  INFO        ✓ Aiways US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Aiways CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Fiat EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Fiat US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Fiat CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ McLaren EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ McLaren US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ McLaren CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Seat EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Seat US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ Seat CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ BYTON EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ BYTON US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ BYTON CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ DS Automobiles EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ DS Automobiles US: 0 model(s) — unchanged
+2026-10-05 15:22:42,980  INFO        ✓ DS Automobiles CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,981  INFO        ✓ Jaguar EU: 1 model(s) — unchanged
+2026-10-05 15:22:42,981  INFO        ✓ Jaguar US: 0 model(s) — unchanged
+2026-10-05 15:22:42,981  INFO        ✓ Jaguar CN: 0 model(s) — unchanged
+2026-10-05 15:22:42,981  INFO      Verifying market-share data…
+2026-10-05 15:22:42,981  INFO        ✓ EU volkswagen: 26.9%
+2026-10-05 15:22:42,981  INFO        ✓ EU stellantis: 14.3%
+2026-10-05 15:22:42,981  INFO        ✓ EU renault: 10.2%
+2026-10-05 15:22:42,981  INFO        ✓ EU hyundai: 7.9%
+2026-10-05 15:22:42,981  INFO        ✓ EU bmw: 7.3%
+2026-10-05 15:22:42,981  INFO        ✓ EU toyota: 7.0%
+2026-10-05 15:22:42,981  INFO        ✓ EU mercedes: 5.1%
+2026-10-05 15:22:42,981  INFO        ✓ EU ford: 3.2%
+2026-10-05 15:22:42,981  INFO        ✓ EU volvo: 2.5%
+2026-10-05 15:22:42,981  INFO        ✓ EU saic: 2.3%
+2026-10-05 15:22:42,981  INFO        ✓ EU tesla: 1.8%
+2026-10-05 15:22:42,981  INFO        ✓ EU nissan: 2.2%
+2026-10-05 15:22:42,981  INFO        ✓ EU suzukimazdahonda: 2.9%
+2026-10-05 15:22:42,982  INFO        ✓ US gm: 16.3%
+2026-10-05 15:22:42,982  INFO        ✓ US ford: 13.1%
+2026-10-05 15:22:42,982  INFO        ✓ US stellantis: 9.8%
+2026-10-05 15:22:42,982  INFO        ✓ US toyota: 15.2%
+2026-10-05 15:22:42,982  INFO        ✓ US honda: 9.2%
+2026-10-05 15:22:42,982  INFO        ✓ US hyundai: 11.0%
+2026-10-05 15:22:42,982  INFO        ✓ US nissan: 7.1%
+2026-10-05 15:22:42,982  INFO        ✓ US bmw: 2.8%
+2026-10-05 15:22:42,982  INFO        ✓ US mercedes: 2.2%
+2026-10-05 15:22:42,982  INFO        ✓ US volkswagen: 3.4%
+2026-10-05 15:22:42,982  INFO        ✓ US tesla: 3.5%
+2026-10-05 15:22:42,982  INFO        ✓ CN byd: 32.0%
+2026-10-05 15:22:42,982  INFO        ✓ CN geely: 10.5%
+2026-10-05 15:22:42,982  INFO        ✓ CN saic: 9.8%
+2026-10-05 15:22:42,982  INFO        ✓ CN gac: 7.2%
+2026-10-05 15:22:42,982  INFO        ✓ CN changan: 6.8%
+2026-10-05 15:22:42,982  INFO        ✓ CN nio: 2.1%
+2026-10-05 15:22:42,983  INFO        ✓ CN xpeng: 2.3%
+2026-10-05 15:22:42,983  INFO        ✓ CN liauto: 3.5%
+2026-10-05 15:22:42,983  INFO        Verification report saved → verification_report.txt
+2026-10-05 15:22:42,983  INFO      
+  Verification: 466/467 checks passed, 1 issue(s) found
+2026-10-05 15:22:42,983  INFO      
+[4/4] Updating dashboard.html…
+2026-10-05 15:22:42,986  INFO        ✓ Replaced VEHICLE_OVERRIDE block
+2026-10-05 15:22:42,988  INFO        ✓ Saved dashboard.html (200.6 KB)
+2026-10-05 15:22:42,989  INFO      
+========================================================================
+2026-10-05 15:22:42,989  INFO        ⚠   Update complete — 1 issue(s) flagged.
+2026-10-05 15:22:42,989  INFO            See verification_report.txt for details.
+2026-10-05 15:22:42,989  INFO      ========================================================================
